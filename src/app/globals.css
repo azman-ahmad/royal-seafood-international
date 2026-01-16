@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #f1f7fa;
+
+  --color-primary: #1c863e;
+  --color-primary-foreground: #ffffff;
+  --color-button-primary: "#1c863e0f";
+  --color-secondary: #0e0e0e;
+  --color-secondary-foreground: #ffffff;
+  --color-accent: #22c55e;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+.btn-bg {
+  background-color: #1c863e0f;
+}
+.btn-bg:hover {
+  background-color: var(--color-primary);
+}
+.product-dropdown .ant-dropdown-menu {
+  width: 220px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.product-dropdown .ant-dropdown-menu-item {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.product-dropdown .ant-dropdown-menu-item:hover {
+  background-color: var(--color-primary) !important;
+  color: white;
+}
+.whatsapp-icon {
+  font-size: 24px;
+  color: #2f855a;
+}
+
+.whatsapp-icon:hover {
+  color: white;
+}
