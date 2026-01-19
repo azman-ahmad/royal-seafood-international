@@ -16,7 +16,7 @@ export type ContactDetails = {
 export const companyDetails: ContactDetails = {
   companyName: "Royal Sea Food International",
   tagline: "Premium Ocean Harvests. Trusted Worldwide.",
-  email: "info@royalseafoodint.com",
+  email: "royalseafoodint@gmail.com",
   description:
     "Royal Seafood International is a seafood consulting firm that facilitates the buying process of seafood from Bangladesh, India, and Vietnam. Since 2019, we have been working as a foreign buyer’s local agent, sourcing the best quality seafood for importers, wholesalers, and supermarkets all over the globe. Our practice is overseen by a team of highly specialized professionals who ensure the delivery of high-quality products on time and at volume-discount prices.",
   phone: "+8801927670156",
